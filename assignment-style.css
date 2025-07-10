@@ -86,3 +86,30 @@ nav{
 .img-mini{
     border-radius: 48px;
 }
+.joined-user{
+    background-color: #e5e7ff;
+    border-radius: 24px;
+}
+.joined-txt{
+    font-size: 38px;
+}
+.user-set{
+    display: flex;
+    justify-content: space-between;
+}
+.user-set h1{
+    font-family: "Inter", sans-serif;
+     font-optical-sizing: auto;
+     font-style: normal;
+     font-size: 80px;
+     margin-bottom: 0;
+     color: #4cac73;
+}
+.user-set p{
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #252432;
+  font-size: 20px;
+  margin-top: 0;
+}
