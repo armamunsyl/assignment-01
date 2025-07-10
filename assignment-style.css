@@ -5,6 +5,9 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
+.header{
+    background-image: url(Assets/Hero-bg.png);
+}
 .btn{
     color: white;
     background-color: #4cac73;
@@ -14,7 +17,12 @@ nav{
     width: 112px;
     height: 48px;
     text-align: center;
+    display: flex;
 }
 .colour-txt{
   color:#4cac73 ;
+}
+.banner{
+    text-align: center;
+    
 }
