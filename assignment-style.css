@@ -87,15 +87,28 @@ nav{
     border-radius: 48px;
 }
 .joined-user{
-    background-color: #e5e7ff;
+    background-color: #adffc9;
+    z-index: 1;
     border-radius: 24px;
+    margin-top: 116px;
+    margin-bottom: 116px;
+    margin-left: 141px;
+    margin-right: 141px;
 }
 .joined-txt{
     font-size: 38px;
+    padding-top: 50px;
+    text-align: center;
+    padding-left: 142px;
+    padding-right: 142px;
+    width: bold;
 }
 .user-set{
     display: flex;
     justify-content: space-between;
+    padding-left: 142px;
+    padding-right: 142px;
+    padding-bottom: 50px;
 }
 .user-set h1{
     font-family: "Inter", sans-serif;
@@ -103,7 +116,7 @@ nav{
      font-style: normal;
      font-size: 80px;
      margin-bottom: 0;
-     color: #4cac73;
+     color: #17d164;
 }
 .user-set p{
     font-family: "Raleway", sans-serif;
