@@ -1,3 +1,6 @@
+body{
+    background-color: #f5fff5;
+}
 nav{
     display: flex;
     margin-left: 150px;
