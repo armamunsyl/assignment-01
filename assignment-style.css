@@ -193,7 +193,7 @@ nav{
     font-size: 15px;
 }
 .date{
-    padding-top: 0;
+    margin-top: 0;
 }
 .star{
     display: flex;
@@ -245,6 +245,7 @@ nav{
   gap: 100px;
 }
 
+
 .head-txt {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -284,6 +285,19 @@ form input {
 }
 .input-msg{
     height:100px ;
+}
+textarea{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 12px 16px;
+  
 }
 .logo-last{
   font-family: "Inter", sans-serif;
