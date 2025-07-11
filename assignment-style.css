@@ -25,12 +25,16 @@ nav{
     padding-right: 36px;
     padding-top: 12px;
     padding-bottom: 12px;
-    
+    cursor: pointer;
     text-align: center;
     display: flex;
     white-space: nowrap;
     text-align: center;
 }
+.btn:hover {
+  background-color: #d9605a;
+}
+
 
 .colour-txt{
   color:#4cac73 ;
@@ -48,7 +52,9 @@ nav{
     padding-bottom: 12px;
     white-space: nowrap;
     
-    
+}
+.btn2:hover {
+  background-color: #d9605a;
 }
 .banner-container{
     text-align: center;
@@ -239,7 +245,6 @@ nav{
   gap: 100px;
 }
 
-/* Headline styling */
 .head-txt {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -280,3 +285,49 @@ form input {
 .input-msg{
     height:100px ;
 }
+.logo-last{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #4cac73;
+  font-size: 100px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+.fotter{
+    margin-top: 0;
+    padding-top: 104px;
+    padding-left: 454px;
+    padding-right: 455px;
+    padding-bottom: 103px;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.fotter p{
+  color: #8987a1;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 12px;
+  text-align: center;
+  justify-items: center;
+ 
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: #8987a1;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+  
+}
+ul li a{
+    text-decoration: none;
+    color: #8987a1;
+}
+
