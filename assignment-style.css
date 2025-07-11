@@ -263,6 +263,9 @@ form label {
   font-weight: 600;
   margin-bottom: 5px;
   color: #1a1a1a;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 form input {
@@ -270,7 +273,10 @@ form input {
   font-size: 15px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
-  border-radius: 8px;
+  border-radius: 10px;
   background-color: white;
   outline: none;
+}
+.input-msg{
+    height:100px ;
 }
